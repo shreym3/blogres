@@ -66,20 +66,27 @@ ul{
 .collapse{
     height: 30rem;
 }
-.nav-items{
+.nav .nav-items{
     display: flex;
     margin: 0;
 }
-.nav-link{
+.nav .nav-items .nav-link{
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
     font-family: var(--Abel);
+    font-size: 1.1rem;
 }
-.nav-link :hover{
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Lexend);
+}
+.nav .nav-link:hover{
     background-color:var(--midnight);
 }
-.nav-link :hover a{
+.nav .nav-link:hover a{
     color: var(--white);
 }
 .nav .social{
@@ -90,12 +97,6 @@ ul{
 }
 .nav .social i:hover{
     color: #a1c4cf;
-}
-.nav-brand a{
-    font-size: 1.6rem;
-    padding: 1rem 0;
-    display: block;
-    font-family: var(--Lexend);
 }
 /* viewport less than or equal to 750px */
 
