@@ -220,6 +220,15 @@ section .container .owl-nav{
 }
 /* x Carousel Section x */
 
+/* Site content */
+
+main .site-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+/* Site content */
+
 /* x   Main content styling   x */
 
 /* viewport less than or equal to 750px */
