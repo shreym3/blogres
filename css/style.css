@@ -64,6 +64,10 @@ span{
 .text-gray{
     color: var(--text-gray);
 }
+p{
+    font-family: var(--Lexend);
+    color: var(--text-light);
+}
 /*---Global Classes---*/
 
 /*  Navigation  */
@@ -232,7 +236,6 @@ main .site-content{
 }
 
 main .post-content{
-    margin-bottom: 5rem;
     width: 100%;
 } 
 main .site-content .post-content > .post-image, .post-title{
@@ -245,7 +248,7 @@ main .site-content .post-content > .post-image .post-info{
     padding: 1rem;
     position: absolute;
     bottom: 0%;
-    left: 16vw;
+    left: 20vw;
     border-radius: 3rem;
 }
 
@@ -254,9 +257,24 @@ main .site-content .post-content > .post-image > div{
 }
 main .site-content .post-content > .post-image .img{
     width: 100%;
+    transition: all 1s ease;
 }
 main .site-content .post-content > .post-image .img:hover{
     transform: scale(1.3);
+}
+
+main .site-content .post-content > .post-image .post-info span{
+    margin: 0 0.5rem;
+}
+main .post-content .post-title a{
+    font-family: var(--Anton);
+    font-size: 1.5rem;
+}
+
+main .site-content .post-content .post-title .post-btn{
+    border-radius: 0;
+    padding: 0.7rem 1.5rem;
+    background: var(--sky);
 }
 /* Site content */
 
