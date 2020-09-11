@@ -276,8 +276,56 @@ main .site-content .post-content .post-title .post-btn{
     padding: 0.7rem 1.5rem;
     background: var(--sky);
 }
-/* Site content */
 
+.site-content .pagination{
+    justify-content: center;
+    color: var(--text-gray);
+    margin: 4rem 0;
+}
+.site-content .pagination a{
+    padding: 0.6rem 0.9rem;
+    border-radius: 2rem;
+    margin: 0 0.3rem;
+    font-family: var(--Lexend);
+}
+.site-content .pagination .pages{
+    background: var(--text-gray);
+    color: var(--white);
+}
+/* Site content */
+/* Sidebar */
+
+.site-content > .sidebar .category-list{
+    font-family: var(--Livvica);   
+}
+
+.site-content > .sidebar .category-list .list-items{
+    background: var(--sky);
+    padding: .4rem 1rem;
+    margin: .8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.site-content > .sidebar .category-list .list-items a{
+    color: black;
+}
+
+.site-content .sidebar .popular-post .post-content{
+    padding: 1rem 0;
+}
+.site-content .sidebar .popular-post h2{
+    padding-top: 8rem;
+}
+.site-content .sidebar .popular-post .post-info{
+    padding: 0.4rem 0.1rem !important;
+    bottom: 0rem !important;
+    left: 2rem !important;
+    border-radius: 0 !important;
+    background: white !important;
+}
+/* Sidebar */
 /* x   Main content styling   x */
 
 /* viewport less than or equal to 750px */
