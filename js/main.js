@@ -17,4 +17,10 @@ $(document).ready(function(){
         nav:true,
         navText:[$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
     });
+    //Click to Scroll to top
+    $('.move-up span').click(function(){
+        $('html, body').animate({
+            scrollTop: 0
+        },1000);
+    })
 });
